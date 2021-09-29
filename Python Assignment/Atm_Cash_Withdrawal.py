@@ -54,9 +54,10 @@ def display_transactions():
     if count==0:
         print("\nYou have not done any transaction yet.")
     else:
-        print("\n--------Mini Statement-------")   
-        print(str(transaction),sep="\n")
+        print("\n------------------Mini Statement-------------------\n")   
+        print(*transaction,sep="\n")
         print("\nAccount balance : ",str(account_balance))
+        print("-----------------------END---------------------------\n\n")
 
 while True:
     print("\n\n-----MENU-----")
