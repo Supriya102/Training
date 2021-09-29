@@ -8,12 +8,11 @@ def add_to_list():
 
 def create_dict():
     k = 'key_'
+    global dict1
     dict1 = {k + str(ele) : ele for ele in list1}
     print("\nThe dictionary is : ",str(dict1))
 
 def sort_dict():
-    k = 'key_'
-    dict1 = {k + str(ele) : ele for ele in list1}
     sorted_dict = dict(sorted(dict1.items(),key= lambda x:x[1],reverse=True))
     print("\nSorted dictionary is : ",str(sorted_dict))
 
