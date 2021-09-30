@@ -1,0 +1,3 @@
+Name,Email,Contact
+['Supriya', 'sup@gmail.com', '123456789']
+['Aashwit', 'aash@gmail.com', '987654321']
